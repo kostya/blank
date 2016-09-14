@@ -6,6 +6,10 @@ class Object
       false
     end
   end
+
+  def present?
+    !blank?
+  end
 end
 
 struct Char
